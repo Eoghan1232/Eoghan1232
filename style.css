@@ -73,7 +73,11 @@ header a {
 
 #hero {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-video: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url('Vid_Test.mp4');
+=======
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('Website_background_test.jpg');
+>>>>>>> parent of 3b83d91... Update style.css
 =======
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('Website_background_test.jpg');
 >>>>>>> parent of 3b83d91... Update style.css
