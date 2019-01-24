@@ -72,19 +72,17 @@ header a {
 /* Add everything below here */
 
 #hero {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url('Website_background_test.jpg');
 =======
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('Website_background_test.jpg');
->>>>>>> parent of 3b83d91... Update style.css
+
 =======
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('Website_background_test.jpg');
->>>>>>> parent of 3b83d91... Update style.css
+
 =======
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('Website_background_test.jpg');
->>>>>>> parent of 3b83d91... Update style.css
+
 }
 
 #about {
