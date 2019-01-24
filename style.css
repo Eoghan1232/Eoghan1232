@@ -72,7 +72,7 @@ header a {
 /* Add everything below here */
 
 #hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(Vid_Test.mp4');
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url(Vid_Test.mp4');
 }
 
 #about {
