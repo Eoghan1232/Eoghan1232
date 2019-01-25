@@ -21,26 +21,22 @@ header {
   left: 2.5rem;
   top: 5rem;
   opacity: 0;
-  animation-name: topFadeOut;
+  animation-name: fadeInOut ;
   animation-duration: 5s;
   color: white;
 }
 
-@keyframes topFadeOut {
+@keyframes fadeInOut {
   0% {
-    position: absolute;
-    top: -3rem;
     opacity: 0;
   }
 
-  75% {
-    position: absolute;
-    top: 25%;
+  45% {
     opacity: 1;
   }
 
   100% {
-    opacity: 0;
+    opacity: 0%;
   }
 }
 
