@@ -15,31 +15,6 @@ header {
     background-color: #eee;
 }
 
-.section-inner {
-  font-size: 4.4rem;
-  position: absolute;
-  left: 2.5rem;
-  top: 5rem;
-  opacity: 0;
-  animation-name: fadeInOut ;
-  animation-duration: 5s;
-  color: white;
-}
-
-@keyframes fadeInOut {
-  0% {
-    opacity: 0;
-  }
-
-  45% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0%;
-  }
-}
-
 header * {
     display: inline;
     height: 50px;
