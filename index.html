@@ -9,9 +9,28 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
+
+<script>
+		$(document).ready(function(){
+			if($(window).width()< 768) {
+				var vheight = $(window).height();
+				vheight = vheight * 0.94;
+				$("#welcome-section").height(vheight);
+			}
+			$('a[href^="#"]').click(function(event) {
+				var id = $(this).attr("href");
+				var offset = 40;
+				var target = $(id).offset().top - offset;
+				$('html, body').animate({scrollTop:target}, 400);
+
+				event.preventDefault();
+			});
+		});
+		</script>
 
 <!-- Navigation -->
 <nav class ="navbar navbar-expand-md navbar-light bg-light sticky-top">
