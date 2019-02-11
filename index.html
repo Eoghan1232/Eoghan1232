@@ -16,11 +16,6 @@
 <!-- Scroll animation -->
 <script>
 		$(document).ready(function(){
-			if($(window).width()< 768) {
-				var vheight = $(window).height();
-				vheight = vheight * 0.94;
-				$("slides").height(vheight);
-			}
 			$('a[href^="#"]').click(function(event) {
 				var id = $(this).attr("href");
 				var offset = 40;
@@ -43,7 +38,7 @@
 	<div class="collapse navbar-collapse" id="navbarResponsive">
 	<ul class="navbar-nav ml-auto">
 		<li class="nav-item">
-			<a class="nav-link" href="#slides">Home</a>
+			<a class="nav-link" href="#">Home</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link" href="#welcome">About</a>
