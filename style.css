@@ -25,6 +25,7 @@ html,body {
 .card-text {
 	background-color: white;
 	color: #474b4f;
+	text-align: justify;
 }
 .card-title {
 	color: #474b6f;
