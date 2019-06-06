@@ -30,6 +30,13 @@ html,body {
 	color: #474b6f;
 }
 
+.display-4{
+  font-size: 360%;
+}
+.display-3{
+  font-size: 300%;
+}
+
 .carousel-inner img {
 	width: 100%;
 	height: 70%;
@@ -111,6 +118,7 @@ footer {
 	color: #d5d5d5;
 	padding-top: 2rem;
 }
+
 hr.light {
 	border-top: 1px solid #d5d5d5;
 	width: 35%;
